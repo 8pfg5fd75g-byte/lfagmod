@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "lagmod",
+  "version": "${version}",
+  "name": "LagMod",
+  "description": "A performance optimization mod for Minecraft",
+  "authors": [
+    "LagModDev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lagmod.LagMod"
+    ],
+    "client": [
+      "com.lagmod.LagModClient"
+    ]
+  },
+  "mixins": [
+    "lagmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}

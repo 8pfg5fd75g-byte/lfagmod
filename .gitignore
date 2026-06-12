@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft
+run/
+*.log
+
+# Environment
+.env
+.env.local
