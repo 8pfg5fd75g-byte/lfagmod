@@ -23,9 +23,3 @@ jobs:
     
     - name: Build with Gradle
       run: ./gradlew clean build
-    
-    - name: Upload JAR as artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: lagmod-build
-        path: build/libs/lagmod-1.0.0.jar
